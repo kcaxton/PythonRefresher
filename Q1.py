@@ -14,6 +14,3 @@ while True:
             break
     except ValueError:
         print("Input should be numerical!")
-    
-    
-        

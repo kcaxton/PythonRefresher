@@ -1,4 +1,4 @@
-#Calculating the area and perimeter of a square given the side length
+#Calculating the area and perimeter of a square uding the side length given by the user
 def area(Length):
     Area = Length * Length
     return Area
@@ -19,4 +19,3 @@ while True:
             break
     except ValueError:
         print("Input should be decimal!")
-        

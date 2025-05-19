@@ -1,4 +1,4 @@
-#Calculating volume of a sphere given the radius
+#Calculating volume of a sphere using radius given by the user
 import math
 while True:
     try:

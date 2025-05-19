@@ -18,6 +18,3 @@ while True:
         upper_case(char)
         lower_case(char)
         break
-
-        
-        
