@@ -1,23 +1,22 @@
 def upper_case(char):
-    if char is upper_case:
+    if char.isupper():
         print("The character is in upper case.")
-    else:
-        print("The character is not in upper case.")
         
 def lower_case(char):
-    if char.islower(char):
+    if char.islower():
         print("The character is in lower case.")
-    else:
-        print("The character is not in lower case.")
         
 while True:
-    try:
-        char = str(input("Please input a character:"))
-        if len(char) != 1:
-            print("Invalid input! Please enter a single character.")
-        else:
-            upper_case(char)
-            lower_case(char)
-            break
-    except ValueError:
-        print("Input should be a single string character!")
+    
+    char = input("Please input a character:")
+    if len(char) != 1:
+        print("Invalid input! Please enter a single character.")
+    elif not char.isalpha():
+        print(f"The character {char} is not alphabetic! Please enter an alphabetic character.")
+    else:
+        upper_case(char)
+        lower_case(char)
+        break
+
+        
+        
