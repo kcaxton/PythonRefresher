@@ -15,7 +15,7 @@ while True:
         else:
             Area_of_Square = area(Length)
             Perimeter_of_Square = perimeter(Length)
-            print(f"The area of the square is {Area_of_Square} square units.\nThe perimeter is {Perimeter_of_Square} units.")
+            print(f"The area of the square is {Area_of_Square} square units.\nThe perimeter of the square is {Perimeter_of_Square} units.")
             break
     except ValueError:
         print("Input should be decimal!")

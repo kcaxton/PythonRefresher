@@ -1,3 +1,4 @@
+#checking if a character input by a user is upper or lower
 def upper_case(char):
     if char.isupper():
         print("The character is in upper case.")
