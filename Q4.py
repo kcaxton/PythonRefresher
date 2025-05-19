@@ -12,8 +12,10 @@ while True:
     char = input("Please input a character:")
     if len(char) != 1:
         print("Invalid input! Please enter a single character.")
+        continue
     elif not char.isalpha():
         print(f"The character {char} is not alphabetic! Please enter an alphabetic character.")
+        continue
     else:
         upper_case(char)
         lower_case(char)

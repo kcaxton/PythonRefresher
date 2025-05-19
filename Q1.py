@@ -13,4 +13,5 @@ while True:
             print(f"Given {Days} days, there are {Seconds_in_Days} seconds.")
             break
     except ValueError:
-        print("Input should be numerical!")
+        print("Input should be a whole number!")
+        continue

@@ -10,4 +10,5 @@ while True:
             print(f"Given radius of {Radius}, the volume of the sphere is {Volume:.2f}")
             break
     except ValueError:
-        print("Input Should be a whole number or decimal!")
+        print("Input Should be a number!")
+        continue

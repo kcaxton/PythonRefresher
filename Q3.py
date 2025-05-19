@@ -18,4 +18,5 @@ while True:
             print(f"The area of the square is {Area_of_Square} square units.\nThe perimeter of the square is {Perimeter_of_Square} units.")
             break
     except ValueError:
-        print("Input should be decimal!")
+        print("Input should be a number!")
+        continue

@@ -1,4 +1,4 @@
-#The code takes 5 values from the user, populating them as an array and calculates the average of those values.
+#The code takes 5 values from the user, populating them as an array then calculates the average of those values.
 while True:
     try:
         print("Please input five values.")
@@ -8,5 +8,5 @@ while True:
         continue  
     print(f"Your array of values is: {Val}")
     average = sum(Val) / len(Val)
-    print(f"Average of the Values is :{average}")
+    print(f"Average of the Values is: {average}")
     break
