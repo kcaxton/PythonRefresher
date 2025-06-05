@@ -2,7 +2,7 @@
 while True:
     try:
         print("Please input five values.")
-        Val = [int(input(f"{i+1}: ")) for i in range(5)]
+        Val = [float(input(f"{i+1}: ")) for i in range(5)]
     except ValueError:
         print("Invalid input! Please enter numeric values.")
         continue  
